@@ -1,3 +1,6 @@
+<img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExbXI1YTBua3M4a3hwOGUzMjYzbWZ2b2d3cmsweDZ2cGpmcXQzbjM2ZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/6vj5quVNRhoQw/giphy.gif" width="480" height="360" style="" frameBorder="0" class="giphy-embed" allowFullScreen></img>
+
+
 ## Midterm-Part II-Web Systems and Technologies
 
 ### Building a Front-end Web Application
