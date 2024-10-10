@@ -23,11 +23,11 @@
         <header>Login</header>
         <form action="#">
           <div class="field input-field">
-            <input type="email" placeholder="Email" class="input">
+            <input type="email" placeholder="Email" class="input" required>
           </div>
 
           <div class="field input-field">
-            <input type="password" placeholder="Password" class="password">
+            <input type="password" placeholder="Password" class="password" required>
             <i class='bx bx-hide eye-icon'></i>
           </div>
 
@@ -35,8 +35,8 @@
             <a href="#" class="forgot-pass">Forgot password?</a>
           </div>
 
-          <div class="field button-field">
-            <button>Login</button>
+          <div class="field button-field"> 
+            <button id="login">Login</button>
           </div>
         </form>
 
@@ -56,15 +56,15 @@
         <header>Signup</header>
         <form action="#">
           <div class="field input-field">
-            <input type="email" placeholder="Email" class="input">
+            <input type="email" placeholder="Email" class="input" required>
           </div>
 
           <div class="field input-field">
-            <input type="password" placeholder="Create password" class="password">
+            <input type="password" placeholder="Create password" class="password" required>
           </div>
 
           <div class="field input-field">
-            <input type="password" placeholder="Confirm password" class="password">
+            <input type="password" placeholder="Confirm password" class="password" required>
             <i class='bx bx-hide eye-icon'></i>
           </div>
 
@@ -84,6 +84,7 @@
 
   <!-- JavaScript -->
   <script>
+    
     const forms = document.querySelector(".forms"),
       pwShowHide = document.querySelectorAll(".eye-icon"),
       links = document.querySelectorAll(".link");
@@ -113,6 +114,11 @@
         forms.classList.toggle("show-signup");
       });
     });
+
+    document.getElementById('login').onclick = function () {
+      window.location.href = "home.html";
+      
+    }
   </script>
 </body>
 
